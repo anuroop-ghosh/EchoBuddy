@@ -1,8 +1,8 @@
-**EduBuddy: Intelligent Lecture Capture and Q&A System**
+**EchoBuddy: Intelligent Lecture Capture and Q&A System**
 
 **Overview**
 
-EduBuddy is an innovative project designed to transform traditional lecture capture content into an intelligent, queryable knowledge base. Many universities in the UK and US utilize lecture capture software and technology, leading to a significant rise in available content resources. However, a primary problem associated with this is the lower utilization of these resources by students, largely due to the lack of integration of appropriate AI models in the student interface.
+EchoBuddy is an innovative project designed to transform traditional lecture capture content into an intelligent, queryable knowledge base. Many universities in the UK and US utilize lecture capture software and technology, leading to a significant rise in available content resources. However, a primary problem associated with this is the lower utilization of these resources by students, largely due to the lack of integration of appropriate AI models in the student interface.
 
 This project addresses these limitations by leveraging artificial intelligence to convert raw lecture audio (converting .mp4 or other video formats to .mp3) and scanned documents (like the lecture PDF shared by a professor) into a dynamic, searchable resource. The core idea is to enable users (students, educators, researchers) to ask precise questions about lecture material and receive instant, accurate answers, even when the information is embedded within spoken discourse or scanned documents. This significantly enriches the learning experience and enhances the utility of archived lectures. For demonstration purposes and due to the lack of real-life lecture data, a financial report and a sample voiceover audio file were used as replicas of real-world examples.
 
@@ -84,8 +84,8 @@ This augmented prompt is sent to the Gemini 1.5 Flash model, which generates an 
 
 1. Clone the repository:
 
-`git clone https://github.com/your-username/EduBuddy.git
-cd EduBuddy`
+`git clone https://github.com/your-username/EchoBuddy.git
+cd EchoBuddy`
 
 
 
@@ -117,7 +117,7 @@ Set your Google Gemini API Key. You can do this by:
 
 * Upload your MP3 lecture file (e.g., `Chicken Cottage 4.mp3`) and any relevant PDF documents to your working directory (or update the paths in the notebook).
 
-* Open the `EduBuddy.ipynb` notebook in a Jupyter environment (e.g., Google Colab, Jupyter Lab, Jupyter Notebook).
+* Open the `EchoBuddy.ipynb` notebook in a Jupyter environment (e.g., Google Colab, Jupyter Lab, Jupyter Notebook).
 
 * Run all cells in the notebook sequentially.
 
@@ -137,7 +137,7 @@ The notebook will guide you through:
 
 **Project Structure**
 
-* `EduBuddy.ipynb`: The main Jupyter Notebook containing all the code and explanations for the project.
+* `EchoBuddy.ipynb`: The main Jupyter Notebook containing all the code and explanations for the project.
 
 * `Chicken Cottage 4.mp3` (example): A sample audio file used for demonstration.
 
